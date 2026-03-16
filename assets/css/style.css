@@ -1,49 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-}
-li{
-    list-style: none;
-}
-h1{
+
+h1 {
     text-align: center;
     margin: 24px;
 }
-table{
+
+table {
     /*border-collapse: collapse;*/
     margin: 24px auto;
     border: 4px solid red;
 }
 
-th, td{
+th, td {
     border: 2px solid #172abd;
     padding: 4px 24px;
     font-size: 20px;
     text-align: center;
 }
 
+caption {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
 /*---------*/
-thead tr:first-child{
+thead th {
     background-color: #c5b08d;
 }
 
-tfoot tr:last-child{
+tfoot tr {
     background-color: #c56060;
 }
 
-tr:nth-child(odd){
+tbody tr:nth-child(odd) {
     background-color: #c3b06a;
 }
 
-tr:nth-child(even){
+tbody tr:nth-child(even) {
     background-color: #cccccc;
 }
 
-tbody tr td:first-child{
+tbody tr td:first-child {
     background-color: #67edff;
 }
 
